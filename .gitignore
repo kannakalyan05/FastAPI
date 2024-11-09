@@ -5,7 +5,7 @@ myenv/
 __pycache__/
 
 # Ignore database file
-names.db
+# names.db
 
 # Ignore other files you don't want to track
 *.log
