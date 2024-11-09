@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Name</title>
+    <link rel="stylesheet" href="/static/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Your Name</h2>
+        <form action="/submit" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <h3>Last Submitted Name:</h3>
+        <p id="last-name">{{ last_name }}</p>
+    </div>
+</body>
+</html>
+
